@@ -1,0 +1,56 @@
+.sary1{
+    border: 1px solid;
+    height: 400px;
+    background: url(photo/01.png) ;
+}
+
+.sary{
+    border: 1px solid;
+    width: 500px;
+    height: 300px;
+    margin: 40px;
+    background: rgba(23, 23, 90, 0.493);
+    text-align: center;
+}
+
+.sary_1{
+    border: 1px solid;
+    justify-content: center;
+    width: 305px;
+    height: 400px;
+    text-align: center;
+}
+
+
+
+.sary_2{
+    border: 1px solid;
+    justify-content: center;
+    width: 305px;
+    height: 400px;
+    text-align: center;
+}
+
+.sary_3{
+    border: 1px solid;
+    justify-content: center;
+    width: 305px;
+    height: 400px;
+    text-align: center;
+}
+
+.part1{
+    margin: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.fin ul li{
+    list-style-type: none;
+}
+
+.fin ul li i{
+    color: rgb(119, 77, 0);
+}
