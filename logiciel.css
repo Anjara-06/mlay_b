@@ -54,3 +54,7 @@
 .fin ul li i{
     color: rgb(119, 77, 0);
 }
+button i {
+    line-height: -35px;
+
+}
