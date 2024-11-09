@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
-<<<<<<< HEAD
+    text-decoration: none
    
 
 }
@@ -16,10 +15,7 @@ header {
     border-color: transparent;
 
 }
-nav ul {
-=======
-    overflow-x: hidden;
-}
+
 
 header {
     align-items: center;
@@ -28,15 +24,14 @@ header {
 }
 
 header nav ul  {
->>>>>>> Ny_Anjara
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 1000px;
-<<<<<<< HEAD
     font-size: 20px;
-    margin-left: 500px;
-    margin-top: -20px;
+    margin-left: 200px;
+    margin-top: 50px;
     transform: translateY(-300%);
     text-decoration: none;
     list-style-type:none;
@@ -44,18 +39,6 @@ header nav ul  {
    
 
 
-}
-nav ul li:hover{
-    cursor: pointer;
-    color: rgb(128, 80, 21);
-    border-bottom: 1px;
-    
-}
-=======
-    margin-left: 170px;
-    font-size: 0.5cm;
-    list-style: none;
-    
 }
 
 header nav ul li:hover{
@@ -73,7 +56,7 @@ header nav ul li:hover{
     border: solid;
     background-color: rgba(73, 73, 193,0.8);
     margin-left: 1000px;
-    transform: translateY(-650px);
+    transform: translateY(-530px);
     width: 550px;
     height: 360px;
     border: none;
@@ -196,4 +179,60 @@ header nav ul li:hover{
     
 }
 
->>>>>>> Ny_Anjara
+.pourquoi{
+    margin-top: 38px;
+    align-items: center;
+    text-align: center;
+}
+.pourquoi h1 {
+    color: rgb(154, 102, 39);
+    font-weight: 400;
+}
+.pourquoi .a {
+    margin-top: 30px;
+    font-size: 0.5cm;
+    font-weight: 100;
+}
+.pourquoi .b {
+    margin-top: 30px;
+    font-size: 0.5cm;
+    font-weight: 300;
+}
+.pourquoi .c {
+    margin-top: 30px;
+    font-size: 0.5cm;
+    font-weight: 300;
+
+}
+
+footer {
+    border: solid;
+    margin-top: 80px;
+    background-color:  rgb(38, 56, 120);
+    border: none;
+    flex-wrap: nowrap;
+    color: aliceblue;
+}
+
+.container .space {
+    display: flex;
+    justify-content: center;
+}
+.contacter_nous {
+    margin-left: 100px;
+    font-weight: 600;
+}
+
+.iii1 {
+    margin-top: 65px;
+    margin-left: 65px;
+}
+
+.formulaire {
+    border: solid;
+    width: 390px;
+    align-items: center;
+    
+    transform: translate(255%,-550%);
+}
+
