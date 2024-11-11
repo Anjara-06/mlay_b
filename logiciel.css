@@ -1,7 +1,9 @@
 .sary1{
     border: 1px solid;
     height: 400px;
-    background: url(photo/01.png) ;
+    background: url(photo/01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sary{
@@ -54,7 +56,11 @@
 .fin ul li i{
     color: rgb(119, 77, 0);
 }
-button i {
-    line-height: -35px;
 
+.par {
+    color: rgba(3, 3, 51, 0.856);
+    border-left: 1px solid rgba(3, 3, 51, 0.856);
+    width: 700px;
+    font-size: 25px;
+    margin: 45px;
 }
