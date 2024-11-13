@@ -30,9 +30,7 @@ header nav ul  {
     list-style-type:none;
     font-style: italic;
 }
-header nav ul li{
-    
-}
+
 header nav ul li a{
     color: rgb(48, 47, 47);
     font-size: 25px;
@@ -54,10 +52,9 @@ header nav ul li a:hover{
 }
 
 
-
 .iii1 {
     margin-top: 65px;
-    margin-left: 65px;
+    margin-left: 90px;
 }
 
 .form-container {
@@ -65,8 +62,8 @@ header nav ul li a:hover{
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    
-    margin-left:910px;
+    margin-top: -800px;
+    margin-left:840px;
     padding-bottom: 65px;
     
 }
@@ -118,6 +115,7 @@ form button:hover {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
+    margin-bottom: -100px;
     height: 0;
     overflow: hidden;
 }
@@ -125,8 +123,8 @@ form button:hover {
 .map-container iframe {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 70%;
+    margin-left: 94px;
+    width: 88%;
     height: 70%;
     border: 0;
    
