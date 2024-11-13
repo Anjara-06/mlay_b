@@ -124,9 +124,8 @@ header nav ul li a:hover{
     color: rgb(246, 246, 246);
     border: none;
     font-size: 0.5cm;
-    
-    
-
+    height: 800px;
+    padding: 50px;
 }
 .bilan h1 {
     text-align: center;
@@ -151,7 +150,7 @@ header nav ul li a:hover{
 }
 .sary1 {
     margin-left: 850px;
-    transform: translateY(-65%);
+    margin-top: -400px;
 }
 .bilan .lolo1 {
     margin-top: 32px; 
@@ -197,7 +196,6 @@ header nav ul li a:hover{
 
 footer {
     border: solid;
-    margin-top: -170px;
     background-color:  rgb(38, 56, 120);
     border: none;
     flex-wrap: nowrap;

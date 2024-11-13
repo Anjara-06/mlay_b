@@ -55,8 +55,8 @@ header nav ul li a:hover{
     width: 500px;
     height: 300px;
     margin: 40px;
-    background: rgba(23, 23, 90, 0.493);
-    text-align: center;
+    background: rgba(23, 23, 90, 0.5);
+    font-size: 25px;
 }
 
 .sary_1{
