@@ -33,6 +33,7 @@ header nav ul li a{
     text-decoration: none;
 }
 
+
 header nav ul li a:hover{
     cursor: pointer;
     color: rgb(173, 129, 74);
@@ -41,6 +42,47 @@ header nav ul li a:hover{
     border-bottom: 1px;
 
 }
+
+.excel{
+    border: solid;
+    width: 500px;
+    height: 500px;
+    margin-left:250px ;
+    
+}
+figcaption h1{
+    font-size: 35px;
+}
+figcaption p{
+    font-size: 19px;
+    margin-bottom: 35px;
+}
+
+.benford{
+    border: solid;
+    width: 500px;
+    height: 500px;
+    margin-left:780px ;
+    margin-bottom: 35px;
+    margin-top: -505px;
+}
+.sepa{
+    border: solid;
+    width: 500px;
+    height: 500px;
+    margin-left:250px ;
+    
+}
+.state{
+    border: solid;
+    width: 500px;
+    height: 500px;
+    margin-left:780px ;
+    margin-bottom: 35px;
+    margin-top: -505px;
+}
+
+
 
 footer {
     border: solid;
@@ -192,3 +234,4 @@ footer {
     margin-top: -260px;
 
 }
+

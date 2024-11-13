@@ -153,7 +153,24 @@ header nav ul li a:hover{
     color: rgba(3, 3, 51, 0.856);
 }
 
+.arrow{
+    font-size:20px;
+    margin-left: 200px;
+}
+.arrow h2{
+    font-size: 35px;
+    color: rgb(35, 35, 151);
+}
+.arrow ul {
+    list-style-type: none;
+    margin-left: -20px;
+    font-size: 20px;
+    padding: 10px;
+}
 
+.arrow ul i{
+    color: rgb(201, 142, 33);
+}
 
 
 

@@ -44,7 +44,7 @@ header nav ul li a:hover{
 
 .sary1{
     border: 1px solid;
-    height: 500px;
+    height: 600px;
     background: url(photo/01.png) ;
     width: 1560px;
 }
@@ -52,16 +52,20 @@ header nav ul li a:hover{
 
 .sary{
     border: 1px solid;
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     margin: 40px;
-    background: rgba(23, 23, 90, 0.5);
+    background: rgba(29, 29, 179, 0.8);
+    color: #eeefee;
+    border-color: transparent;
     font-size: 25px;
 }
 
 .sary img {
     width: 500px;
     height: 300px;
+    margin-top: -10px;
+    margin-left: 105px;
 }
 .sary_1{
     border: 1px solid;
@@ -100,32 +104,30 @@ header nav ul li a:hover{
     font-size: 20px;
 }
 .sary_1 a{
-    border: 2px solid;
     text-decoration: none;
-    padding: 10px;
-    background-color: rgb(39, 37, 37);
     color: #eeefee;
 }
 .sary_2 P{
     font-size: 20px;
 }
 .sary_2 a{
-    border: 2px solid;
     text-decoration: none;
     padding: 10px;
+    color: #eeefee;
+}
+.chariot{
+    border: 2px solid;
     background-color: rgb(39, 37, 37);
     color: #eeefee;
+    padding: 10px;
 }
 .sary_3 p{
     font-size: 20px;
 }
 .sary_3 a{
-    border: 2px solid ;
     text-decoration: none;
     padding: 10px;
-    background-color: rgb(39, 37, 37);
     color: #eeefee;
-    
 }
 .arrow{
     font-size:20px;
