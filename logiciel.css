@@ -47,8 +47,8 @@ header nav ul li:hover{
     height: 400px;
     background: url(photo/01.png) ;
     width: 1560px;
-    
 }
+
 
 .sary{
     border: 1px solid;
@@ -137,6 +137,7 @@ header nav ul li:hover{
     font-size: 20px;
     padding: 10px;
 }
+
 .arrow ul i{
     color: rgb(201, 142, 33);
 }
