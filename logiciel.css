@@ -1,10 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header {
+    border: solid;
+    align-items: center;
+    width: 100%;
+    border-color: transparent;
+
+}
+
+
+header {
+    align-items: center;
+    display: flex;
+    
+}
+
+header nav ul  {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+    transform: translateY(-300%);
+    text-decoration: none;
+    list-style-type:none;
+    font-style: italic;
+}
+
+header nav ul li:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: bisque;
+    font-size: 0.6cm;
+    transition: 0.5s;
+    border-bottom: 1px;
+}
+
 .sary1{
     border: 1px solid;
     height: 400px;
-    background: url(photo/01.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(photo/01.png) ;
+    width: 1560px;
 }
+
 
 .sary{
     border: 1px solid;
@@ -48,23 +92,52 @@
     justify-content: center;
     gap: 25px;
 }
-
-.fin ul li{
+.sary_1 p{
+    font-size: 20px;
+}
+.sary_1 a{
+    border: 2px solid;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(39, 37, 37);
+    color: #eeefee;
+}
+.sary_2 P{
+    font-size: 20px;
+}
+.sary_2 a{
+    border: 2px solid;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(39, 37, 37);
+    color: #eeefee;
+}
+.sary_3 p{
+    font-size: 20px;
+}
+.sary_3 a{
+    border: 2px solid ;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(39, 37, 37);
+    color: #eeefee;
+    
+}
+.arrow{
+    font-size:20px;
+    margin-left: 200px;
+}
+.arrow h2{
+    font-size: 35px;
+    color: rgb(35, 35, 151);
+}
+.arrow ul {
     list-style-type: none;
+    margin-left: -20px;
+    font-size: 20px;
+    padding: 10px;
 }
 
-.fin ul li i{
-    color: rgb(119, 77, 0);
-}
-
-.par {
-    color: rgba(3, 3, 51, 0.856);
-    border-left: 1px solid rgba(3, 3, 51, 0.856);
-    width: 700px;
-    font-size: 25px;
-    margin: 45px;
-}
-.par p {
-    margin-left: 5px;
-    color: rgba(3, 3, 51, 0.856);
+.arrow ul i{
+    color: rgb(201, 142, 33);
 }

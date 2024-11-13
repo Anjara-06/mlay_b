@@ -6,7 +6,7 @@
 
 }
 body{
-    overflow-x: hidden;
+    
 }
 header {
     border: solid;
@@ -27,6 +27,7 @@ nav ul {
     text-decoration: none;
     list-style-type:none;
     font-style: italic;
+    margin-inline-start: 285px;
    
 
 
