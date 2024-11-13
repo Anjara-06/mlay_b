@@ -1,45 +1,45 @@
 body{
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    text-decoration: none;
 }
 header {
     border: solid;
     align-items: center;
     width: 100%;
     border-color: transparent;
-
-}
-
-
-header {
     align-items: center;
     display: flex;
-    
 }
 
-header nav ul  {
 
+header nav ul  {
     display: flex;
     flex-wrap: wrap;
+    color: black;
     justify-content: space-around;
     width: 1000px;
     font-size: 20px;
     margin-left: 200px;
-    margin-top: 50px;
+    margin-top: 150px;
     transform: translateY(-300%);
-    text-decoration: none;
     list-style-type:none;
     font-style: italic;
 }
-
-header nav ul li:hover{
+header nav ul li a{
+    color: rgb(48, 47, 47);
+    font-size: 25px;
     text-decoration: none;
+}
+
+header nav ul li a:hover{
     cursor: pointer;
-    color: bisque;
+    color: rgb(173, 129, 74);
     font-size: 0.6cm;
     transition: 0.5s;
     border-bottom: 1px;
+
 }
 
 .sary1{
