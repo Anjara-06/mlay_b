@@ -1,45 +1,45 @@
 body{
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    text-decoration: none;
 }
 header {
     border: solid;
     align-items: center;
     width: 100%;
     border-color: transparent;
-
-}
-
-
-header {
     align-items: center;
     display: flex;
-    
 }
 
-header nav ul  {
 
+header nav ul  {
     display: flex;
     flex-wrap: wrap;
+    color: black;
     justify-content: space-around;
     width: 1000px;
     font-size: 20px;
     margin-left: 200px;
-    margin-top: 50px;
+    margin-top: 150px;
     transform: translateY(-300%);
-    text-decoration: none;
     list-style-type:none;
     font-style: italic;
 }
-
-header nav ul li:hover{
+header nav ul li a{
+    color: rgb(48, 47, 47);
+    font-size: 25px;
     text-decoration: none;
+}
+
+header nav ul li a:hover{
     cursor: pointer;
-    color: bisque;
+    color: rgb(173, 129, 74);
     font-size: 0.6cm;
     transition: 0.5s;
     border-bottom: 1px;
+
 }
 
 .sary1{
@@ -55,8 +55,8 @@ header nav ul li:hover{
     width: 500px;
     height: 300px;
     margin: 40px;
-    background: rgba(23, 23, 90, 0.493);
-    text-align: center;
+    background: rgba(23, 23, 90, 0.5);
+    font-size: 25px;
 }
 
 .sary_1{
@@ -140,4 +140,155 @@ header nav ul li:hover{
 
 .arrow ul i{
     color: rgb(201, 142, 33);
+}
+
+footer {
+    border: solid;
+    background-color:  rgb(38, 56, 120);
+    border: none;
+    flex-wrap: nowrap;
+    color: aliceblue;
+    height: 500px;
+}
+
+.container .grid .space {
+    display: flex;
+    justify-content: left;
+    border: solid;
+    width: 325px;
+    transform: translateY(60%);
+    border: none;
+}
+
+.grid .space .text9 {
+    
+    padding-top: 52px;
+    transform: translateX(200%);
+    color: bisque;
+    font-size: 0.8cm;
+}
+
+.grid .space .space2 {
+   
+    padding-top: 115px;
+    font-size: 0.4cm;
+}
+
+.vertical-line {
+    width: 1px; 
+    height: 30vh;
+    background-color: #ffffff;
+    margin: auto; 
+    transform: translate(-47855%,200%);
+    
+}
+
+
+.space4 {
+    display: flex;
+    
+    border: solid;
+    width: 325px;
+    align-content: center;
+    align-items: center;
+    transform: translate(110%,-15%);
+    border: none;
+}
+
+.space4 .text98 {
+    padding-bottom: 97px;
+    font-size: 0.8cm;
+
+}
+.space4 .space-y-2 {
+    margin-top: 52px;
+    transform: translateX(-95%);
+}
+
+.space-y-4 {
+    display: flex;
+    justify-content: center;
+    width: 352px;
+    align-content: center;
+    align-items: center;
+    transform: translate(200%,-100%);
+    border-left:1px solid;
+    height: 230px;
+    border-right:1px solid;
+
+}
+.space-y-4 .text65 {
+    padding-bottom: 80px;
+    font-size: 25px;
+    text-align: center;
+    transform: translateX(32px);
+}
+
+.space-y-4 .space-y-8 {
+    transform: translate(-55%,55%);
+}
+
+
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    font-size: x-large
+}
+
+
+
+.container65 {
+    text-align: center;
+    margin-top: -140px;
+    height: 230px;
+
+}
+
+
+
+
+/* Icônes de réseaux sociaux */
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    transition: transform 0.2s;
+}
+
+
+
+.facebook {
+    background-color: #3b5998;
+    transform: translate(920%,-455%);
+}
+
+.linkedin {
+    background-color: #0077b5;
+    transform: translate(920%,-455%);
+}
+
+.youtube {
+    background-color: #ff0000;
+    transform: translate(920%,-455%);
+    
+}
+.mt-8b {
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+    margin-top: -260px;
+
 }
