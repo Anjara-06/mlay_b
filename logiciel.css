@@ -60,7 +60,8 @@ header nav ul li a:hover{
 }
 
 .sary img {
-    
+    width: 500px;
+    height: 300px;
 }
 .sary_1{
     border: 1px solid;
